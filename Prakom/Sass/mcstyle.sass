@@ -1,0 +1,62 @@
+@media (min-width: 768px)
+    .parentoreder
+        display: flex !important
+        flex-direction: columns !important
+    .childrandom
+        order: 3
+    .childloan
+        order: 1
+    .childreserved
+        order: 2
+    .contentstyle
+        padding: 18px
+
+        max-height: auto
+        .imagecontainer
+            display: flex
+            padding-left: 30px
+            transform: translatex(-30%,0%)
+            img
+                object-fit: cover
+                width: 125px
+                aspect-ratio: 3/4
+                overflow: hidden
+                opacity: 0.6
+
+                transition: opacity 0.3s ease-in-out
+                transition: transform 0.2s ease-in-out
+                &:hover
+                    transform: translate(10%, -5%)
+                    opacity: 1
+
+    .headertext
+        margin-bottom: 5px
+
+    .ReservedBooks
+        img
+            width: 60px
+            aspect-ratio: 3/4
+            object-fit: fill
+        span
+            font-size: 15px
+            font-weight: 600
+        p
+            margin-top: -7px
+            font-size: 14px
+            font-weight: 500
+            margin-bottom: 0px
+        span.Duetime
+            font-size: 14px
+            font-weight: 500
+@media (max-width: 768px)
+    .imagecontainer
+        padding-left: 30px
+        width: calc(50% - 18px)
+    .parentoreder
+        display: flex !important
+    .childrandom
+        order: 3
+    .childloan
+        order: 2
+    .childreserved
+        order: 1
