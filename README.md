@@ -1,10 +1,10 @@
 The last Project for school Exam (Library)
 A library system where the librarian operate an app with the system that record the borrower data with the date of returning, (*Unfinished Project*)
-
+<br><br>
 Written Mostly in PHP (Native) with html, Sass, css with some javascript
 DataBase is using Mysql of XAMPP v3.3.0
-
-quick login :
+<br><br>
+quick login : <br>
     zzranchlmao@gmail(.)com ||  Pass: rectangle  || Level : Admin <br>
     razy@gmail(.)com ||  Pass: 	salmon  || Level : Borrower <br>
     ebb@gmail(.)com  ||  Pass: 	salmon  || Level : Borrower <br>
